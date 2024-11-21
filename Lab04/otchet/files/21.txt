@@ -1,0 +1,10 @@
+./Templates
+./Videos
+./.gnupg/private-keys-v1.d
+./.cache/obexd
+./.mozilla/extensions
+./.vscode/cli
+./Public
+./Music
+./.config/xviewer
+./.config/goa-1.0
