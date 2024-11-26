@@ -31,4 +31,16 @@ mv 4.md ~/otchet/files
 touch -m -t 202410140000 ~/test_find/time/two.txt
  
 25. touch ~/test_find/permissions/cant_write.txt ~/test_find/permissions/can_execute.txt
-26. 
+chmod a-w ~/test_find/permissions/cant_write.txt 
+chmod a+x ~/test_find/permissions/can_execute.txt 
+26. find ~/test_find -atime +183 -delete 
+27. find ~/test_find -empty -type f -perm 755 -exec chmod a-x {} \;
+28. man ls > man_ls.txt
+29. grep -n '^$' man_ls.txt
+30. g
+rep '[0-9]' ~/man_ls.txt
+31. grep "Richard M. Stallman" ~/man_ls.txt > ~/otchet/files/31.txt
+32.wc -lc ~/man_ls.txt 
+33.pc -u sasha > ~/otchet/files/33.txt
+34. pgrep nano
+35. pkill nano
